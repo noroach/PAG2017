@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "f0356254-9559-4e93-ab42-47a5edf886b5",
+            "Value": {
+                "id": "67d2991a-a230-46d9-b7cb-d48a91a96bcb",
+                "resourcePath": "notes\\note0.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "f2c3a53c-2c6c-4eee-b9c1-6ddf66a5ee55",
             "Value": {
                 "id": "0cdd9daf-a33e-4adf-ac65-1ebf64bc95ac",
