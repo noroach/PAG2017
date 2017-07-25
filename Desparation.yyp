@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "d28d57a5-b611-4215-8f49-0d839b9c3b3e",
+            "Value": {
+                "id": "acb0cbfa-3c7d-4ea9-a7fa-686cad135443",
+                "resourcePath": "notes\\testBoi.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "d78bb070-d6b8-43e3-a0cd-70c8d5120789",
             "Value": {
                 "id": "f75bc5f8-c48d-4893-bd5e-a460e220f63d",
