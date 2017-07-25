@@ -6,4 +6,4 @@ jumpheight = 3.5;
 grav = 0.9;
 
 // variables for ai behavior
-attackCooldown = room_speed * 1; // in ms???
+attackCooldown = room_speed * 1; // in sec???
