@@ -16,3 +16,6 @@ alarm[0] = bullet_cooldown;
 x_scale = image_xscale;
 y_scale = image_yscale; 
 
+// ammo counts
+pistolammo = 0;
+shotgunammo = 0;
