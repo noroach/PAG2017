@@ -18,7 +18,7 @@
         "fe98e994-6a0f-44e1-9adc-77dae39ee3c4",
         "18f69dfb-e253-48da-9f12-7d9166e545c1",
         "917b638e-e80a-45f5-8f68-5fd1b580506c",
-        "75125878-5221-4ce2-9158-78458a7dbfe8"
+        "9fc65923-24d4-48cb-93d9-bb0cd1c8a9b0"
     ],
     "layers": [
         {
@@ -261,16 +261,16 @@
                     "scaleY": 1
                 },
                 {
-                    "id": "75125878-5221-4ce2-9158-78458a7dbfe8",
+                    "id": "9fc65923-24d4-48cb-93d9-bb0cd1c8a9b0",
                     "modelName": "GMRInstance",
                     "mvc": "1.0",
                     "ignore": false,
                     "inheritItemSettings": false,
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
-                    "name": "inst_276A22F2",
+                    "name": "inst_5954CB52",
                     "x": 64,
-                    "y": 128,
+                    "y": 160,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -278,7 +278,7 @@
                     "creationCodeFile": "",
                     "creationCodeType": "",
                     "inheritCode": false,
-                    "name_with_no_file_rename": "inst_276A22F2",
+                    "name_with_no_file_rename": "inst_5954CB52",
                     "objId": "8c24499b-16ed-4335-9890-4d45411b7e10",
                     "rotation": 0,
                     "scaleX": 1,
@@ -359,16 +359,16 @@
             "modelName": "GMRView",
             "mvc": "1.0",
             "hborder": 32,
-            "hport": 720,
+            "hport": 360,
             "hspeed": -1,
             "hview": 360,
             "inherit": false,
-            "objId": "00000000-0000-0000-0000-000000000000",
+            "objId": "1e152214-90da-444a-a5f2-0ca7c7374209",
             "vborder": 32,
             "visible": true,
             "vspeed": -1,
-            "wport": 1040,
-            "wview": 520,
+            "wport": 520,
+            "wview": 500,
             "xport": 0,
             "xview": 0,
             "yport": 0,
