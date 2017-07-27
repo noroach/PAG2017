@@ -2,7 +2,7 @@
     "id": "1e152214-90da-444a-a5f2-0ca7c7374209",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_player",
+    "name": "o_old_player",
     "eventList": [
         {
             "id": "0b3eb1a5-a081-4523-b7c2-73624cb9e3ee",
@@ -101,6 +101,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "cfc4d082-cee8-429d-b2e3-f10c353336d8",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

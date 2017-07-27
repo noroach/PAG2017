@@ -1,10 +1,6 @@
 /// @description Player Movement
 var hinput = keyboard_check(ord("D"))- keyboard_check(ord("A"));
 
-//Crouching Code
-if (keyboard_check(ord("S"))){
-	y_scale = image_yscale/2; 
-}
 
 if hinput != 0 {
 	hsp += hinput*accel;
@@ -23,10 +19,7 @@ if !place_meeting (x, y+1, o_solid) {
 	}
 }
 
-//Crouching Code 
-if (keyboard_check(ord("S"))){
-	y_scale = image_yscale/2; 
-}
+
 
 //Calling Movement/Collision Script
 move(); 

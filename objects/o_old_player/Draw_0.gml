@@ -1,5 +1,4 @@
 /// @description Draw Player and Weapon
-// You can write your code in this editor
 var dir = point_direction (x,y, mouse_x, mouse_y);
 var flipped = (mouse_x > x)*2-1;
 
