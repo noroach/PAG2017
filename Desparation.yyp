@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "bb83c467-bf83-4915-963a-01cd8fd71149",
+            "Value": {
+                "id": "ea51cfea-b203-4524-a668-0dd1cd3f724d",
+                "resourcePath": "scripts\\effectiveRangeCheck\\effectiveRangeCheck.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bdb11e0e-14ad-4e6f-abb0-2344586b2cc5",
             "Value": {
                 "id": "e2d8a92e-02da-41e5-8d9c-ee4cde6c8113",
@@ -487,6 +495,14 @@
             }
         },
         {
+            "Key": "e8fd7ce1-58d8-48b9-81db-cfc8a9ac19dd",
+            "Value": {
+                "id": "08988429-13cd-4375-a78e-d05c2c016632",
+                "resourcePath": "scripts\\getBehavior\\getBehavior.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ee4045fe-a0de-4569-9d0c-ad2d95d51d4b",
             "Value": {
                 "id": "6199e587-ffb0-45ad-86c4-aafa059e4d0b",
@@ -545,10 +561,12 @@
     ],
     "script_order": [
         "75c8d149-029b-48b6-b8d1-c3dc686e7d0e",
+        "e8fd7ce1-58d8-48b9-81db-cfc8a9ac19dd",
         "7bb56fb0-a6ac-433e-a322-96b5e917e12b",
         "423d281e-7603-49ab-b621-12f96c804da9",
         "21f00a24-cefe-4a1e-9782-9e81861869ba",
         "0721fa74-3b77-47cb-9d25-fb974c88e490",
+        "bb83c467-bf83-4915-963a-01cd8fd71149",
         "828ac982-da3e-4c50-8e96-6646948fd940",
         "64d68ad0-70b6-4ddb-83b5-6b8fc7753674",
         "072443d4-6d3a-4c59-a5e9-e514ba0d10df",
