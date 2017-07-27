@@ -34,7 +34,7 @@ if (canJump & crouchinput){
 	isCrouching = true;
 	hsp = hsp * crouchspeed;
 }
-else if (place_meeting (x, y-31, o_solid) && sprite_index == s_player_crouch){
+else if (place_meeting (x, y-24, o_solid) && sprite_index == s_player_crouch){ 
 	isCrouching = true;
 	hsp = hsp * crouchspeed;
 }
