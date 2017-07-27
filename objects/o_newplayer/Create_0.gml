@@ -8,7 +8,7 @@ movespeed = 4;
 crouchspeed = 0.5;
 horizontalfriction = 0.5;
 jumpheight = 12;
-grav = 0.5;
+grav = 0.7;
 
 //Scale Variables
 x_scale = image_xscale;

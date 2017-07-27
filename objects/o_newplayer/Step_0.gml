@@ -39,8 +39,9 @@ else {
 }
 
 //apply gravity
-vsp += grav;
-
+if !place_meeting (x, y+1, o_solid) {
+	vsp += grav; 
+}
 //collisions
 move();
 
