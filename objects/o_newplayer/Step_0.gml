@@ -50,11 +50,7 @@ if !place_meeting (x, y+1, o_solid) {
 move();
 
 //change animations ---
-/*if ((abs(hsp) > 0) && !isCrouching && canJump){
-	sprite_index = s_player_run;
-	image_xscale = -1;
-}
-*/
+
 if (rightinput && !isCrouching && canJump) {
 	sprite_index = s_player_run;
 	image_xscale = 1;
