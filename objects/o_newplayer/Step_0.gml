@@ -7,7 +7,7 @@ rightinput = keyboard_check(ord("D"));
 crouchinput = keyboard_check(ord("S"));
 
 //player Movement
-if (place_meeting (x, y+1, o_solid)){
+if (place_meeting (x, y+2, o_solid)){
 	canJump = true;
 }
 else {
@@ -24,7 +24,7 @@ else if (leftinput) {
 else {
 	hsp = hsp * horizontalfriction;
 }
- 
+
 
 //jumping
 if(canJump & jumpinput){vsp = -jumpheight}
@@ -32,7 +32,7 @@ if(canJump & jumpinput){vsp = -jumpheight}
 //crouching
 if (canJump & crouchinput){
 	isCrouching = true;
-	hsp = hsp * crouchspeed;
+	hsp = movespeed * crouchspeed;
 }
 else {
 	isCrouching = false;
