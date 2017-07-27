@@ -34,7 +34,7 @@ if (canJump & crouchinput){
 	isCrouching = true;
 	hsp = hsp * crouchspeed;
 }
-else if (place_meeting (x, y-24, o_solid) && sprite_index == s_player_crouch){ 
+else if (place_meeting (x, y-32, o_solid) && sprite_index == s_player_crouch){ 
 	isCrouching = true;
 	hsp = hsp * crouchspeed;
 }
@@ -50,11 +50,14 @@ if !place_meeting (x, y+1, o_solid) {
 move();
 
 //change animations ---
-if ((abs(hsp) > 0) && !isCrouching){
+if ((abs(hsp) > 0) && !isCrouching && canJump){
 	sprite_index = s_player_run;
 }
 else if (isCrouching){
 	sprite_index = s_player_crouch;
+}
+else if (!place_meeting (x, y+1, o_solid)){
+	sprite_index = s_player_jump;
 }
 else {
 	sprite_index = s_player_idle;

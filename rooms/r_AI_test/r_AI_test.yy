@@ -1263,7 +1263,7 @@
             "hspeed": -1,
             "hview": 512,
             "inherit": false,
-            "objId": "1e152214-90da-444a-a5f2-0ca7c7374209",
+            "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 512,
             "visible": true,
             "vspeed": 0,
