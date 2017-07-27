@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0721fa74-3b77-47cb-9d25-fb974c88e490",
+            "Value": {
+                "id": "d392aad2-479c-42ab-918f-e09f7c721ceb",
+                "resourcePath": "scripts\\perceptionCheck\\perceptionCheck.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "072443d4-6d3a-4c59-a5e9-e514ba0d10df",
             "Value": {
                 "id": "47dfe683-35ba-41e7-8422-0d5307880418",
@@ -138,7 +146,7 @@
             "Key": "423d281e-7603-49ab-b621-12f96c804da9",
             "Value": {
                 "id": "fa30f6eb-3463-483f-8164-01c8c0a9e479",
-                "resourcePath": "scripts\\lineOfSight\\lineOfSight.yy",
+                "resourcePath": "scripts\\lineOfSightCheck\\lineOfSightCheck.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -540,6 +548,7 @@
         "7bb56fb0-a6ac-433e-a322-96b5e917e12b",
         "423d281e-7603-49ab-b621-12f96c804da9",
         "21f00a24-cefe-4a1e-9782-9e81861869ba",
+        "0721fa74-3b77-47cb-9d25-fb974c88e490",
         "828ac982-da3e-4c50-8e96-6646948fd940",
         "64d68ad0-70b6-4ddb-83b5-6b8fc7753674",
         "072443d4-6d3a-4c59-a5e9-e514ba0d10df",

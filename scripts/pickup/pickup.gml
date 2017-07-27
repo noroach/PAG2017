@@ -9,7 +9,7 @@ switch(ammo.type){
 					destroy(ammo);
 					break;
 	case "shotgun":	shotgunammo += ammo.count; 
-					show_message("picked up ammo");
+					//show_message("picked up ammo");
 					destroy(ammo);
 					break;
 	default: 
