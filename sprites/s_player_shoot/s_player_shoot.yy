@@ -6,10 +6,10 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 35,
-    "bbox_left": 13,
-    "bbox_right": 29,
-    "bbox_top": 25,
+    "bbox_bottom": 13,
+    "bbox_left": 0,
+    "bbox_right": 31,
+    "bbox_top": 1,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -28,13 +28,6 @@
             },
             "images": [
                 {
-                    "id": "e5b3089b-1da6-4ee2-9382-6e28963489e6",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "3ea0bc5a-c426-45b0-a462-208e57a13408",
-                    "LayerId": "f0382190-d008-47c3-9330-d4ac4eb8fb51"
-                },
-                {
                     "id": "9ffb975e-7c20-4d59-9ab8-cb3f2d16ed92",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
@@ -46,7 +39,7 @@
     ],
     "gridX": 1,
     "gridY": 1,
-    "height": 64,
+    "height": 20,
     "layers": [
         {
             "id": "7ee61f2c-8c7c-412e-af3f-228ddb75891f",
@@ -58,17 +51,6 @@
             "name": "Arms",
             "opacity": 100,
             "visible": true
-        },
-        {
-            "id": "f0382190-d008-47c3-9330-d4ac4eb8fb51",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "0172fdf4-3693-4897-a3a5-c611df4ca85a",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "Hitbox",
-            "opacity": 50,
-            "visible": false
         }
     ],
     "origin": 9,
@@ -80,6 +62,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 32,
-    "xorig": 17,
-    "yorig": 26
+    "xorig": 0,
+    "yorig": 7
 }

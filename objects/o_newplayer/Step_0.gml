@@ -5,6 +5,7 @@ jumpinput = -keyboard_check_pressed(vk_space);
 leftinput = keyboard_check(ord("A"));
 rightinput = keyboard_check(ord("D"));
 crouchinput = keyboard_check(ord("S"));
+guninput = mouse_check_button(mb_right);
 
 //player Movement
 if (place_meeting (x, y+1, o_solid)){
@@ -51,6 +52,14 @@ if !place_meeting (x, y+1, o_solid) {
 }
 //collisions
 move();
+
+//Gun Mode
+if (guninput) {
+	gunmode = true;
+}
+else {
+	gunmode = false
+}
 
 //change animations ---
 
