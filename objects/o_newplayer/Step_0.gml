@@ -20,9 +20,12 @@ if (rightinput) {
 }
 else if (leftinput) {
 	hsp = -movespeed;
-}
+}	
 else {
 	hsp = hsp * horizontalfriction;
+}
+if (rightinput && leftinput) {
+	hsp = 0;
 }
 
 
@@ -51,12 +54,12 @@ move();
 
 //change animations ---
 
-if (rightinput && !isCrouching && canJump) {
+if (hsp > 0 && !isCrouching && canJump) {
 	sprite_index = s_player_run;
 	image_xscale = 1;
 }
-else if (leftinput && !isCrouching && canJump) {
-	sprite_index =s_player_run;
+else if (hsp < 0 && !isCrouching && canJump) {
+	sprite_index = s_player_run;
 	image_xscale = -1;
 }
 else if (isCrouching){

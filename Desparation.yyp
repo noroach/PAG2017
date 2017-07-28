@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0172fdf4-3693-4897-a3a5-c611df4ca85a",
+            "Value": {
+                "id": "87c94947-cd57-4ca3-a4b5-0e682552e635",
+                "resourcePath": "sprites\\s_player_shoot\\s_player_shoot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "01a9ffa8-8f38-48c5-8033-8921ca02b1f1",
             "Value": {
                 "id": "cc6744bb-df29-4dea-82dc-961298aea7d1",

@@ -18,6 +18,7 @@ y_scale = image_yscale;
 canJump = true;
 isCrouching = false;
 canCrouch = false;
+gunmode = false; 
 
 // ammo counts
 pistolammo = 0;
