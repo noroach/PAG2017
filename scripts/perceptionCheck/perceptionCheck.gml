@@ -11,7 +11,8 @@ else {
 }
 
 // can they attack?
-if (has_target){
+/// @TODO needs to be changed based on effective range, the range is an exact number and needs to be an actual range
+if (has_target && has_line_of_sight && in_range){
 	can_attack = true;
 }
 else{

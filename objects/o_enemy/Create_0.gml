@@ -7,6 +7,7 @@ bs = 32;
 hsp = 0;
 vsp = 0; 
 movespeed = 3;
+is_crouched = false;
 
 //enemy health
 max_health = 10;
@@ -15,7 +16,7 @@ pain_threshold = 2; // used for knockouts
 
 //perception variables (units in block length)
 perception_distance = 6 * bs;
-effective_range = 1 * bs;
+effective_range = 1 * bs; // should be dictated by gun type
 
 //States
 is_idle = true;
@@ -27,4 +28,5 @@ knocked_out = false;
 can_attack = false;
 has_target = false;
 has_line_of_sight = false;
+in_range = false;
 attacking = false;

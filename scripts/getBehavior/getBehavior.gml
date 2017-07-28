@@ -4,12 +4,12 @@
 if (is_idle){
 	//patrol
 }
+else if(knocked_out){
+	//crawl away
+}
 else if(taking_cover){
 	//crouch and shoot
 }
-else if(knocked_out){
-	
-}
-else{
-
+else if (false){
+	//normal fighting
 }
