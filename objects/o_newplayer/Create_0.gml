@@ -23,3 +23,7 @@ gunmode = false;
 // ammo counts
 pistolammo = 0;
 shotgunammo = 0;
+
+//ARMS
+arms = instance_create_depth(x, y, -1, o_arms);
+castTo(self, arms);
