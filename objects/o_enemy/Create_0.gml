@@ -3,6 +3,9 @@
 //standard block size for units in pixels
 bs = 32;
 
+//guns
+//gun = instance_create_depth()
+
 //movement variables
 hsp = 0;
 vsp = 0; 

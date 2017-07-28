@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "f2c96837-e2ce-4f8b-9f15-165b7a9fa418",
+            "Value": {
+                "id": "f10cf451-9061-40cd-b4c0-0c6c0846dcb8",
+                "resourcePath": "objects\\o_gun\\o_gun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f372ffac-aeb2-4da9-9b2a-23f545e6d8ef",
             "Value": {
                 "id": "e8e9052b-9ac7-4637-a2c2-887806e13357",
