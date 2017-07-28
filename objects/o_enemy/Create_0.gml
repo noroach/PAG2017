@@ -16,7 +16,8 @@ pain_threshold = 2; // used for knockouts
 
 //perception variables (units in block length)
 perception_distance = 6 * bs;
-effective_range = 1 * bs; // should be dictated by gun type
+sight_distance = 10 * bs; //how far they can see
+effective_range = [1 * bs, 3 * bs]; // should be dictated by gun type
 
 //States
 is_idle = true;
