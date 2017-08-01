@@ -28,3 +28,7 @@ shotgunammo = 0;
 //ARMS
 arms = instance_create_depth(x, y, -1, o_arms);
 castTo(self, arms);
+
+//change
+
+cursor_sprite = s_sights;

@@ -24,3 +24,14 @@ else if (!place_meeting (x, y+1, o_solid)){
 else {
 	sprite_index = s_player_idle;
 }
+
+if(gunmode){
+	if(mouse_x < x)
+	{
+		image_xscale = -1;
+	}
+	else
+	{
+		image_xscale = 1;
+	}
+}
