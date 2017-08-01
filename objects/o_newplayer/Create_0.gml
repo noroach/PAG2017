@@ -19,16 +19,17 @@ y_scale = image_yscale;
 canJump = true;
 isCrouching = false;
 canCrouch = false;
-gunmode = false; 
+gunmode = false;
 
 // ammo counts
 pistolammo = 0;
 shotgunammo = 0;
 
 //ARMS
-arms = instance_create_depth(x, y, -1, o_arms);
+arms = instance_create_depth(x, y, -2, o_arms);
 castTo(self, arms);
 
-//change
 
+//change somewhere... maybe based on the type of gun held
 cursor_sprite = s_sights;
+
