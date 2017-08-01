@@ -4,5 +4,21 @@
 x = body.x;
 y = body.y - 32;
 
-//image_xscale = -1;
-image_angle = resting_angle;
+//set angle if in gun mode
+if (body.gunmode)
+{
+	image_angle = point_direction (x,y, mouse_x, mouse_y);
+}
+else{
+	image_angle = image_angle - resting_angle;
+}
+
+
+//set image xscale
+image_xscale = body.image_xscale;
+//image_yscale = body.image_xscale;
+
+//set crouching arms offset
+if(body.isCrouching){
+	y = body.y - 16;
+}

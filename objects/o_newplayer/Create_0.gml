@@ -5,6 +5,7 @@ hsp = 0;
 vsp = 0;
 //Movement varibles
 movespeed = 4;
+gunmodespeed = 0.3;
 crouchspeed = 0.5;
 horizontalfriction = 0.5;
 jumpheight = 12;
