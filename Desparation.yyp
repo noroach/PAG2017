@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "73c23983-5fba-41f7-9c80-60b7427ac754",
+            "Value": {
+                "id": "0a7abbe8-782a-48c7-a483-65246ffa9d05",
+                "resourcePath": "sprites\\s_sights\\s_sights.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "75c8d149-029b-48b6-b8d1-c3dc686e7d0e",
             "Value": {
                 "id": "fe5a0ad8-8fea-43e8-a5f3-4a72e0bd4503",
