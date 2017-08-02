@@ -6,7 +6,8 @@
     "children": [
         "89affd56-2395-430b-8ebb-6a5b364c60a1",
         "067e850b-3e4d-417a-8416-5212605b9fe5",
-        "7c702c6a-2f80-4e87-b628-ecd994f4675a"
+        "7c702c6a-2f80-4e87-b628-ecd994f4675a",
+        "a7ebaf0b-a56e-4341-a778-8b6719f63149"
     ],
     "filterType": "GMSprite",
     "folderName": "Level",
