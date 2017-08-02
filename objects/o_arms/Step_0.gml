@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description movement, shooting
 
 //handle arm movement
 armMovement();
@@ -14,8 +13,8 @@ if (mw_down || mw_up) {
 }
 
 // SOME SCHUUT
-if (body.gunmode && mouse_check_button(mb_left))
+if (body.gunmode && mouse_check_button_pressed(mb_left))
 {
-	//schuut
-	playerFire();
+	playerFire(gun_spreads[current_selection], gun_bullet_num[current_selection], gun_dmg[current_selection]);
 }
+
