@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "8482addf-e209-4aa6-9936-97d78e2d27a5",
+            "Value": {
+                "id": "6ee6dad5-2459-40ef-944d-abd0ca1d5f24",
+                "resourcePath": "objects\\o_playerspawn\\o_playerspawn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "89affd56-2395-430b-8ebb-6a5b364c60a1",
             "Value": {
                 "id": "df5947ab-8ba2-4f0e-8810-c41d787683eb",
@@ -540,6 +548,14 @@
                 "id": "a30b2f2c-7287-4bdb-b672-3aeaea73b541",
                 "resourcePath": "objects\\o_arms\\o_arms.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b757bfc3-3d2b-4805-aa9d-28703b13d813",
+            "Value": {
+                "id": "d94debf7-0fe4-4e16-8d74-58d5da06abb1",
+                "resourcePath": "sprites\\s_playerspawn\\s_playerspawn.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
