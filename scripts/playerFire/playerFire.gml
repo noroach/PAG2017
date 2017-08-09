@@ -5,6 +5,8 @@ var spread = argument0;
 var bullet_nums = argument1;
 var dmg = argument2;
 
+var par_offset = 10;
+
 var shuut_direction = point_direction(x, y, mouse_x, mouse_y);
 //check for the guns cooldown
 //if (alarm_get(current_selection) <= 0){
@@ -22,8 +24,8 @@ repeat (bullet_nums){
 
 
 //particle effects
-part_type_direction(global.pt_MuzzleSmoke_copy, shuut_direction-15, shuut_direction+15, 0, 0);
-part_emitter_region(global.ps, global.pe_MuzzleFlare, bbox_right-1, bbox_right+1, bbox_top-1, bbox_top+1, ps_shape_rectangle, ps_distr_linear);
-part_emitter_burst(global.ps, global.pe_MuzzleFlare, global.pt_MuzzleFlare, 3);
-part_emitter_region(global.ps, global.pe_MuzzleSmoke_copy, bbox_right-1, bbox_right+1, bbox_top-1, bbox_top+1, ps_shape_rectangle, ps_distr_linear);
-part_emitter_burst(global.ps, global.pe_MuzzleSmoke_copy, global.pt_MuzzleSmoke_copy, 100);
+//part_type_direction(global.pt_MuzzleSmoke_copy, shuut_direction-15, shuut_direction+15, 0, 0);
+//part_emitter_region(global.ps, global.pe_MuzzleFlare, x + par_offset*dsin(image_angle), x + par_offset*dsin(image_angle), y + par_offset*dcos(image_angle), y + par_offset*dcos(image_angle), ps_shape_rectangle, ps_distr_linear);
+//part_emitter_burst(global.ps, global.pe_MuzzleFlare, global.pt_MuzzleFlare, 3);
+//part_emitter_region(global.ps, global.pe_MuzzleSmoke_copy,  x, x, y, y, ps_shape_rectangle, ps_distr_linear);
+//part_emitter_burst(global.ps, global.pe_MuzzleSmoke_copy, global.pt_MuzzleSmoke_copy, 100);
