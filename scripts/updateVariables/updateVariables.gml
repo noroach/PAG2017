@@ -4,3 +4,4 @@ healthCheck();
 lineOfSightCheck();
 perceptionCheck();
 effectiveRangeCheck();
+jumpCheck();

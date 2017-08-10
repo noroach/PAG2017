@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "2ec9c109-c68a-40a1-97c8-9450276ede89",
+            "Value": {
+                "id": "b9e8d0f6-af58-4ce4-ac50-791d86d14331",
+                "resourcePath": "objects\\o_enemy_arms\\o_enemy_arms.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "32a46964-71da-4056-aff2-acc75a038218",
             "Value": {
                 "id": "444192e0-072b-4c32-844f-9e01bb10dedc",
@@ -252,6 +260,14 @@
                 "id": "922d8d72-eede-4dab-b164-10c7966490dc",
                 "resourcePath": "objects\\o_ammo\\o_ammo.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "636cac46-322d-489f-99c8-3ec7d495388d",
+            "Value": {
+                "id": "c210ed94-a497-454d-8e23-a2db8621ef33",
+                "resourcePath": "scripts\\jumpCheck\\jumpCheck.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -839,6 +855,7 @@
         "21f00a24-cefe-4a1e-9782-9e81861869ba",
         "0721fa74-3b77-47cb-9d25-fb974c88e490",
         "bb83c467-bf83-4915-963a-01cd8fd71149",
+        "636cac46-322d-489f-99c8-3ec7d495388d",
         "828ac982-da3e-4c50-8e96-6646948fd940",
         "64d68ad0-70b6-4ddb-83b5-6b8fc7753674",
         "072443d4-6d3a-4c59-a5e9-e514ba0d10df",

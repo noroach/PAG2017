@@ -3,6 +3,8 @@
 if (enemy_health <= 0){
 	// CALL DEATH SCRIPT
 	/// @todo create death script
+	destroy(arms);
+	destroy(self);
 }
 else if (enemy_health < max_health/2){ //enemies take cover below half health
 	taking_cover = true;

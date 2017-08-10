@@ -3,14 +3,20 @@
 //standard block size for units in pixels
 bs = 32;
 
-//guns
-//gun = instance_create_depth()
-
 //movement variables
 hsp = 0;
 vsp = 0; 
+grav = 0.9;
+jumpheight = 12;
+can_jump = true;
 movespeed = 3;
 is_crouched = false;
+//current_face_direction = -1;
+//sets a patrol route
+var ex = x;
+lpoint = ex - 64;
+rpoint = ex + 64;
+current_target_position = rpoint;// just an x variable
 
 //enemy health
 max_health = 10;
@@ -34,3 +40,8 @@ has_target = false;
 has_line_of_sight = false;
 in_range = false;
 attacking = false;
+
+
+//ARMS
+arms = instance_create_depth(x, y, -2, o_enemy_arms);
+castTo(self, arms);
