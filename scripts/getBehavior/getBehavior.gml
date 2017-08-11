@@ -1,7 +1,12 @@
 /// @description the actual state machine that determines what the AI is going to do next
 
 //
-if(knocked_out){
+if (is_dead){
+	///@TODO make death script???
+	destroy(arms);
+	destroy(self);
+}
+else if(knocked_out){
 	//crawl away
 }
 else{
@@ -28,6 +33,7 @@ else{
 		//if you can attack
 		if (can_attack){
 			//aim
+			arms.image_angle = point_direction(x, y, o_newplayer.x, o_newplayer.y - bs)
 			//attack
 		}
 		else{
@@ -38,7 +44,15 @@ else{
 		if(!in_range){
 			//move to effective range
 			//current_target_position = o_newplayer.x;
-			pathTo(o_newplayer.x, false);
+			// if the player is behind us
+			var atplayer = false;
+			
+			if (x > o_newplayer.x){
+				atplayer = pathTo(o_newplayer.x + effective_range[1], false);
+			}
+			else{
+				atplayer = pathTo(o_newplayer.x - effective_range[1], false);
+			}
 		}
 	}
 }

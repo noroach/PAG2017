@@ -9,6 +9,7 @@ vsp = 0;
 grav = 0.9;
 jumpheight = 12;
 can_jump = true;
+is_crouching = false;
 movespeed = 3;
 is_crouched = false;
 //current_face_direction = -1;
@@ -22,11 +23,12 @@ current_target_position = rpoint;// just an x variable
 max_health = 10;
 enemy_health = 10;
 pain_threshold = 2; // used for knockouts
+is_dead = false;
 
 //perception variables (units in block length)
-perception_distance = 6 * bs;
-sight_distance = 10 * bs; //how far they can see
-effective_range = [1 * bs, 3 * bs]; // should be dictated by gun type
+perception_distance = 10 * bs;
+sight_distance = 25 * bs; //how far they can see
+effective_range = [1 * bs, 8 * bs]; // should be dictated by gun type
 
 //States
 is_idle = true;

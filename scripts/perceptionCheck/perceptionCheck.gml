@@ -3,7 +3,7 @@
 var distance_to_player = distance_to_object(o_newplayer);
 
 // can sense the player
-if (distance_to_player < perception_distance  ||  (has_line_of_sight || distance_to_player < sight_distance)){
+if (distance_to_player < perception_distance  ||  (has_line_of_sight && distance_to_player < sight_distance)){
 	has_target = true;
 	is_idle = false;
 }
