@@ -43,7 +43,7 @@ has_line_of_sight = false;
 in_range = false;
 attacking = false;
 
-
+can_shoot = true;
 //ARMS
 arms = instance_create_depth(x, y, -2, o_enemy_arms);
 castTo(self, arms);

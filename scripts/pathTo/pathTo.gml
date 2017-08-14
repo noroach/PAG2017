@@ -22,11 +22,11 @@ if (x < destination + 5 && x > destination - 5){
 }
 else{ // we havent
 	if (destination < x){ //moving left
-		image_xscale = -1;
+		//image_xscale = -1;
 		hsp = -ms;
 	}
 	else{ //moving right
-		image_xscale = 1;
+		//image_xscale = 1;
 		hsp = ms;
 	}
 

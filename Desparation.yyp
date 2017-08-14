@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "58d2dd65-af47-461e-9d65-fd7171c4d5f6",
+            "Value": {
+                "id": "fd5562b3-bb8d-4c2e-964f-a58f4ae2927d",
+                "resourcePath": "scripts\\enemyFire\\enemyFire.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5dcb7f44-ed6e-48c0-8234-328909636449",
             "Value": {
                 "id": "4a46c8e3-caf5-43f9-a0a3-a5b45fe5c696",
@@ -907,6 +915,7 @@
         "828ac982-da3e-4c50-8e96-6646948fd940",
         "64d68ad0-70b6-4ddb-83b5-6b8fc7753674",
         "072443d4-6d3a-4c59-a5e9-e514ba0d10df",
+        "58d2dd65-af47-461e-9d65-fd7171c4d5f6",
         "8257508d-5f09-4fb0-9ba3-4a92c93907c0",
         "e5c164a6-610e-4663-910f-fa05641422ac",
         "726236a1-c3b3-4f63-92f1-e3591c6cdbc5",

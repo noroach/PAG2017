@@ -21,6 +21,10 @@ else{
 		else if (atpoint && (current_target_position == lpoint)){
 			current_target_position = rpoint;
 		}
+		
+		//image angle
+		if (hsp < 0){image_xscale = -1;}
+		else if (hsp > 0){image_xscale = 1;}
 	}
 	//this is the same as saying "has_target"
 	//meaning the enemy saw you, or percieved you within its "perception distance"
@@ -32,9 +36,20 @@ else{
 		
 		//if you can attack
 		if (can_attack){
+			if(o_newplayer.x < x){image_xscale = -1;}
+			else{image_xscale = 1;}
 			//aim
-			arms.image_angle = point_direction(x, y, o_newplayer.x, o_newplayer.y - bs)
+			//arms.image_angle = point_direction(x, y, o_newplayer.x, o_newplayer.y - bs)
+			//counter act the x-scale angle flip glitch
+			if (image_xscale == -1){
+				arms.image_angle = point_direction (x,y, o_newplayer.x, o_newplayer.y - bs) - 180; // flipped
+			}
+			else { //otherwise its normal
+				arms.image_angle = point_direction (x,y, o_newplayer.x, o_newplayer.y - bs);
+			}
+			
 			//attack
+			enemyFire();
 		}
 		else{
 			//dont aim
