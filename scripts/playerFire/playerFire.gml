@@ -17,8 +17,10 @@ var shuut_direction = point_direction(x, y, mouse_x, mouse_y);
 //create if check for gun cooldown
 repeat (bullet_nums){
 	var bullet = instance_create_depth(x, y, -1, o_bullet);
+	bullet.shotby = "player";
 	bullet.speed = bullet_speed;
 	bullet.direction = point_direction(x, y, random_range(mouse_x - spread, mouse_x + spread), random_range(mouse_y - spread, mouse_y + spread));
+	//bullet.direction = image_angle + (random_range(-spread, spread))
 	bullet.image_angle = bullet.direction;
 }
 

@@ -1,5 +1,8 @@
 /// @description Initilize Player
 
+//health
+player_health = 25;
+
 // horizontal and vertical speed
 hsp = 0;
 vsp = 0;

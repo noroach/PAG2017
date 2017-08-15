@@ -18,6 +18,7 @@ if (can_shoot){
 	//create if check for gun cooldown
 	repeat (bullet_nums){
 		var bullet = instance_create_depth(arms.x, arms.y, -1, o_bullet);
+		bullet.shotby = "enemy";
 		bullet.speed = 15;
 		bullet.direction = point_direction(x, y, random_range(o_newplayer.x - spread, o_newplayer.x + spread), random_range(o_newplayer.y  - bs - spread, o_newplayer.y  - bs + spread));
 		bullet.image_angle = bullet.direction;
