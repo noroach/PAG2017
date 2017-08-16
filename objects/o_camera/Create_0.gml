@@ -9,6 +9,6 @@ camera_set_view_mat(camera,vm);
 camera_set_proj_mat(camera,pm);
 
 view_camera[0] = camera;
-follow = o_player;
+follow = o_newplayer;
 xto = x;
 yto = y;

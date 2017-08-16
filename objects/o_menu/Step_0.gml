@@ -15,7 +15,7 @@ if (push == 1) menuscript();
 
 if (keyboard_check_pressed(vk_escape)&& room != r_main_menu)
 {
-	room_goto_previous(); 
+	room_goto(r_main_menu); 
 }
 
 if (room == r_main_menu && keyboard_check_pressed(vk_escape)) 

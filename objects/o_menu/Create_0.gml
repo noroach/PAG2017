@@ -13,5 +13,11 @@ if (room == r_levelselect_menu)
 	menu[1] = "Level One";
 	menu[2] = "Level Two";
 	menu[3] = "Level Three"; 
-	menu[4] = "test"; 
+}
+if (room == r_about_menu) 
+{
+	menu[0] = " ";
+	menu[1] = " ";
+	menu[2] = " ";
+	menu[3] = " ";
 }
