@@ -1,5 +1,5 @@
 x = body.x;
-y = body.y - 32;
+y = body.y - 40;
 
 
 //set image xscale
